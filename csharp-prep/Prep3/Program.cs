@@ -1,12 +1,15 @@
 using System;
 
 class Program
+
 {
     static void Main(string[] args)
     {
-        Console.Write("What is the Magic Number? ");
-        string magicNumber = Console.ReadLine();
-        int number = int.Parse(magicNumber);
+        //Console.Write("What is the Magic Number? ");
+        //string magicNumber = Console.ReadLine();
+        //int number = int.Parse(magicNumber);
+        Random randomGenerator = new Random();
+        int number = randomGenerator.Next(1,101);
 
         int guess = -1;
 
