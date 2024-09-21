@@ -10,7 +10,7 @@ class Program
         int gradeB = 80;
         int gradeC = 70;
         int gradeD = 60;
-        int gradeF = 60;
+        //int gradeF = 60;
 
         string won = "Congratulations! you have passed!";
         string lose = "We encourage you to keep working and try again,";
